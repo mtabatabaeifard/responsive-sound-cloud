@@ -1,0 +1,23 @@
+/* Resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-family:'Lucida Grande', Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+      Tahoma, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .list-reset {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #eee;
+  }

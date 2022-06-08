@@ -1,0 +1,112 @@
+@media screen and (max-width: 1200px) {
+    .trending{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+   .boxes-container{
+       width:100%;
+   }
+   .boxes-first-row{
+       flex-wrap: wrap;
+   }
+   .boxes-second-row{
+       flex-wrap: wrap;
+   }
+   .search-field form input{
+       width: 60rem;
+   }
+}
+@media screen and (max-width: 992px) {
+    .phone-img{
+        display: none;
+    }
+
+   .search-field form input{
+       width: 50rem;
+       margin-left: 5rem;
+   }
+}
+@media screen and (max-width: 768px) {
+    
+   .search-field form input{
+       width: 30rem;
+       margin-left: 2rem;
+   }
+}
+@media screen and (max-width: 640px) {
+
+   .search-field form input{
+       width: 20rem;
+       margin-left: 0;
+   }
+   .burgir{
+    display: flex;
+  }
+  .header-buttons a{
+    display: none;
+  }
+  .hero .button{
+    transform: scale(0.5);
+  }
+  .hero p {
+    font-size: 1.4rem;
+  }
+  .hero h1{
+    font-size: 2.4rem;
+  }
+  header{
+    background-size: cover;
+  }
+  .creators-text{
+    font-size: 1.8rem;
+  }
+  .creators-btn{
+    transform: scale(0.5);
+    margin: 0;
+    margin-left: -2rem;
+  }
+  .creators-text-title{
+    font-size: 2.4rem;
+  }
+  .after-creators{
+    height: fit-content;
+  }
+  .create-acc-btn,.login .signin-button{
+    transform: scale(0.5);
+    margin-top: 0;
+  }
+  .login{
+    margin-top: 0;
+  }
+  .thanks-header{
+    font-size: 2.4rem;
+    margin-top: 1rem;
+  }
+  .normal-text{
+    font-size: 1.8rem;
+    max-width: 75%;
+  }
+  .small-text{
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+    .search-field form input{
+        width: 10rem;
+        margin-left: 0;
+    }
+    .creators-text{
+      font-size: 1.4rem;
+    }
+    .creators-text-title{
+      font-size: 1.8rem;
+    }
+    .creators-btn{
+      transform: scale(0.25);
+      margin: 0;
+    }
+    .creators-teaser{
+      height: fit-content;
+    }
+  }

@@ -1,0 +1,37 @@
+/* Utils */
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .fd-column {
+    flex-direction: column;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    background: #f50;
+    padding: 0.3rem 1.5rem;
+    border: 0.1rem solid #f50;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    width: max-content;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+      Garuda, Verdana, Tahoma, sans-serif;
+    text-shadow: none;
+  }
+  .normal-text{
+      font-size: 2.4rem;
+  }
+  .small-text{
+      font-size: 1.2rem;
+  }
+  
